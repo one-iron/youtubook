@@ -7,7 +7,7 @@
         :key="index"
         @click="clickHandle(index, item.name)"
       >
-        <div>{{item.emoji}}{{ item.name }}</div>
+        <div>{{ item.emoji }}{{ item.name }}</div>
       </div>
     </Flicking>
   </div>
@@ -16,6 +16,8 @@
 
 
 <script>
+import Flicking from "@egjs/vue-flicking";
+
 export default {
   props: ['search'],
   data() {
