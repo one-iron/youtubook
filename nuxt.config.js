@@ -1,9 +1,10 @@
 export default {
+  target: "static",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: '유튜북 - 유튜브 영상, 가볍게 읽자',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'kor'
     },
     meta: [
       { charset: 'utf-8' },
