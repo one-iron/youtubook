@@ -13,15 +13,15 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://unpkg.com/@egjs/flicking/dist/flicking.css', crossorigin: 'anonymous' },
+      { rel: 'stylesheet', href: 'https://unpkg.com/@egjs/flicking/dist/flicking-inline.css', crossorigin: 'anonymous' },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'ant-design-vue/dist/antd.css',
-    "@egjs/vue-flicking/dist/flicking.css",
-    "@egjs/vue-flicking/dist/flicking-inline.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

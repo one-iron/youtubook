@@ -11,10 +11,10 @@
       v-if="flickingShow"
       class="subTitle"
     >
-      <div class="weather-panel">긴 유튜브 영상, <b>가볍게</b> 읽으세요. ⏱</div>
-      <div class="weather-panel">10분 영상 👉 <b>1분 독서</b> 👉 🐶🍯</div>
-      <div class="weather-panel"><b>유튜북</b>에서 소중한 시간 아끼세요. 📕 </div>
-      <div class="weather-panel"><b>핵심 정보</b>만 글로 정리했어요. 📝</div>
+      <div>긴 유튜브 영상, <b>가볍게</b> 읽으세요. ⏱</div>
+      <div>10분 영상 👉 <b>1분 독서</b> 👉 🐶🍯</div>
+      <div><b>유튜북</b>에서 소중한 시간 아끼세요. 📕 </div>
+      <div><b>핵심 정보</b>만 글로 정리했어요. 📝</div>
     </Flicking>
   </div>
 </template>
