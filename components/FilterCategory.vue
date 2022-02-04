@@ -16,8 +16,6 @@
 
 
 <script>
-import Flicking from "@egjs/vue-flicking";
-
 export default {
   props: ['search'],
   data() {
