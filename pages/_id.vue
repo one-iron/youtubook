@@ -88,6 +88,7 @@ export default {
     },
     toBack() {
       window.history.go(-1);
+      this.toTop();
     },
   },
 };
