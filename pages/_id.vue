@@ -21,6 +21,7 @@
       <article>
         <nuxt-content :document="page" />
       </article>
+      <div class="adfitArea"></div>
       <div class="coupangAd" v-if="page.coupang">
         <iframe
           :src="page.coupangUrl"
@@ -30,7 +31,10 @@
           scrolling="no"
           referrerpolicy="unsafe-url"
         ></iframe>
-        <p class="adMessage">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+        <p class="adMessage">
+          이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를
+          제공받습니다.
+        </p>
       </div>
     </div>
   </div>
@@ -56,6 +60,19 @@ export default {
   },
   mounted() {
     this.deviceHeight = window.innerHeight;
+
+    let ins = document.createElement("ins");
+    let scr = document.createElement("script");
+    ins.className = "kakao_ad_area";
+    ins.style = "display:none; width:100%;";
+    scr.async = "true";
+    scr.type = "text/javascript";
+    scr.src = "//t1.daumcdn.net/kas/static/ba.min.js";
+    ins.setAttribute("data-ad-width", "320");
+    ins.setAttribute("data-ad-height", "50");
+    ins.setAttribute("data-ad-unit", "DAN-0x5Ns9JujJVDLFJ7");
+    document.querySelector(".adfitArea").appendChild(ins);
+    document.querySelector(".adfitArea").appendChild(scr);
   },
 };
 </script>
