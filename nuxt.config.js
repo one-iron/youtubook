@@ -13,7 +13,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/youtubook_icon.png' },
       { rel: 'stylesheet', href: 'https://unpkg.com/@egjs/flicking/dist/flicking.css', crossorigin: 'anonymous' },
       { rel: 'stylesheet', href: 'https://unpkg.com/@egjs/flicking/dist/flicking-inline.css', crossorigin: 'anonymous' },
     ]

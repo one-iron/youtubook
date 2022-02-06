@@ -11,6 +11,8 @@ bookTime: 1분 독서
 tags: ['성공', '동기부여']
 summary: 패배하는게 최악의 실패가 아니라, 시도하지 않는 것이 진짜 실패입니다.
 date: 211107
+coupang: 1
+coupangUrl: https://coupa.ng/cb0dBh
 ---
 
 **저는 2가지 습관을 가지며 삶이 달라졌습니다.**

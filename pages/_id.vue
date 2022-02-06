@@ -21,6 +21,17 @@
       <article>
         <nuxt-content :document="page" />
       </article>
+      <div class="coupangAd" v-if="page.coupang">
+        <iframe
+          :src="page.coupangUrl"
+          width="324"
+          height="240"
+          frameborder="0"
+          scrolling="no"
+          referrerpolicy="unsafe-url"
+        ></iframe>
+        <p class="adMessage">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+      </div>
     </div>
   </div>
 </template>
@@ -93,5 +104,14 @@ export default {
 
 .pageTitle {
   margin-bottom: 30px;
+}
+
+.coupangAd {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.adMessage {
+  font-size: 10px;
 }
 </style>
