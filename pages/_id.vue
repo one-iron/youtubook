@@ -36,6 +36,14 @@
           제공받습니다.
         </p>
       </div>
+      <div class="btnGroup">
+        <a-button class="backBtn" @click="toBack()"
+          ><a-icon type="arrow-left"
+        /></a-button>
+        <a-button class="upBtn" @click="toTop()"
+          ><a-icon type="arrow-up"
+        /></a-button>
+      </div>
     </div>
   </div>
 </template>
@@ -73,6 +81,14 @@ export default {
     ins.setAttribute("data-ad-unit", "DAN-0x5Ns9JujJVDLFJ7");
     document.querySelector(".adfitArea").appendChild(ins);
     document.querySelector(".adfitArea").appendChild(scr);
+  },
+  methods: {
+    toTop() {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    },
+    toBack() {
+      window.history.go(-1);
+    },
   },
 };
 </script>
@@ -123,12 +139,31 @@ export default {
   margin-bottom: 30px;
 }
 
+.adfitArea {
+  margin-top: 40px;
+}
+
 .coupangAd {
   text-align: center;
-  margin-top: 40px;
 }
 
 .adMessage {
   font-size: 10px;
+}
+
+.btnGroup {
+  display: flex;
+  margin-top: 50px;
+}
+
+.backBtn {
+  height: 60px;
+  width: 80%;
+  /* border: 1px solid red; */
+}
+
+.upBtn {
+  width: 20%;
+  height: 60px;
 }
 </style>
