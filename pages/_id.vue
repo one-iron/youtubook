@@ -54,8 +54,10 @@ export default {
     const page = await $content(`article/${params.id}`)
       .fetch()
       .catch((err) => {
+        console.log('error', error);
         error({ statusCode: 404, message: "Page not found" });
       });
+      console.log('enter')
     return {
       page,
     };
