@@ -49,7 +49,6 @@
 </template>
 
 <script>
-import HeaderTitle from "../components/HeaderTitle.vue";
 export default {
   async asyncData({ $content, params, error }) {
     const page = await $content(`article/${params.id}`)
