@@ -62,7 +62,8 @@ export default {
   generate: {
     routes: [
       '/sin_sa_220201',
-      '/etc'
+      '/next_door_ceo_211107',
+      'kelly_220115'
     ]
   }
 
