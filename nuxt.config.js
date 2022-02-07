@@ -59,4 +59,11 @@ export default {
     Allow: "/",
   },
 
+  generate: {
+    routes: [
+      '/sin_sa_220201',
+      '/etc'
+    ]
+  }
+
 }
