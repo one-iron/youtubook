@@ -9,7 +9,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: '유튜북' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -61,9 +61,11 @@ export default {
 
   generate: {
     routes: [
-      '/sin_sa_220201',
-      '/next_door_ceo_211107',
-      'kelly_220115'
+      'sin_sa_220201',
+      'next_door_ceo_211107',
+      'kelly_220115',
+      'read_budongsan_220208',
+      'tam_gu_life_220206'
     ]
   }
 
