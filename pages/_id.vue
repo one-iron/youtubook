@@ -51,14 +51,14 @@
 <script>
 export default {
   async asyncData({ $content, params, error }) {
-    console.log('enter1')
+    console.log("enter1");
     const page = await $content(`article/${params.id}`)
       .fetch()
       .catch((err) => {
-        console.log('error2', error);
+        console.log("error2", error);
         error({ statusCode: 404, message: "Page not found" });
       });
-      console.log('enter3')
+    console.log("enter3");
     return {
       page,
     };
@@ -66,11 +66,11 @@ export default {
   data() {
     return {
       deviceHeight: "",
-      page: {}
+      page: {},
     };
   },
   mounted() {
-    console.log('enter4')
+    console.log("enter4");
     this.deviceHeight = window.innerHeight;
 
     let ins = document.createElement("ins");

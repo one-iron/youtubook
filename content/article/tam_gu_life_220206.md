@@ -9,7 +9,7 @@ channelName: 탐구생활 - 돈이 되는 삶의 이야기
 videoTime: 15분 영상
 bookTime: 1분 독서
 tags: ['성공', '동기부여']
-summary: 최대한 안전한 현금 흐름을 만들어, 최대한 공격적인 투자를 해야한다.  
+summary: 자유로운 삶을 살 수 있는 직업 들 중 창업가가 적합하다 결론을 짓고, 창업에만 몰두하였습니다.
 date: 220208
 coupang: 1
 coupangUrl: https://coupa.ng/cb27AP
