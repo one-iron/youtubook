@@ -62,11 +62,13 @@ export default {
 
   generate: {
     routes: [
-      'sin_sa_220201',
-      'next_door_ceo_211107',
       'kelly_220115',
+      'next_door_ceo_211107',
+      'next_door_ceo_220202',
       'read_budongsan_220208',
-      'tam_gu_life_220206'
+      'sin_sa_220201',
+      'tam_gu_life_220206',
+      'tam_gu_life_220219',
     ]
   }
 

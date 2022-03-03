@@ -1,4 +1,4 @@
-import Vue from "vue";
+import Vue from 'vue';
 import VueGtag from "vue-gtag";
 
 Vue.use(VueGtag, {
