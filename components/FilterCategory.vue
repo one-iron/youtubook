@@ -63,6 +63,6 @@ export default {
 
 .clicked {
   color: white;
-  background-color: #ff0600;
+  background-color: #5E17EB;
 }
 </style>

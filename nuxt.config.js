@@ -13,7 +13,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/youtubook_icon.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/youtubook_icon2.png' },
       { rel: 'stylesheet', href: 'https://unpkg.com/@egjs/flicking/dist/flicking.css', crossorigin: 'anonymous' },
       { rel: 'stylesheet', href: 'https://unpkg.com/@egjs/flicking/dist/flicking-inline.css', crossorigin: 'anonymous' },
     ]
@@ -65,6 +65,7 @@ export default {
       'kelly_220115',
       'next_door_ceo_211107',
       'next_door_ceo_220202',
+      'next_door_ceo_220223',
       'read_budongsan_220208',
       'sin_sa_220201',
       'tam_gu_life_220206',
